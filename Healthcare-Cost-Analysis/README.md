@@ -1,80 +1,53 @@
-### &#x20;**Healthcare Cost Analysis \& Prediction**
+#  Healthcare Cost Analysis & Prediction
 
-#### 
-
-#### &#x20;Project Overview
+## Overview
 
 This project analyzes healthcare data to identify key factors influencing medical costs and builds a predictive model to estimate expenses.
 
+---
 
+##  Tools & Technologies
 
+* Python (Pandas, Seaborn, Scikit-learn)
+* Power BI
+* Excel
 
+---
 
-#### &#x20;Tools Used
+##  Key Insights
 
-\- Python (Pandas, Seaborn, Scikit-learn)
+*  Smokers incur **3–4x higher medical costs**
+*  Age and BMI show **moderate impact**
+*  Number of children has **minimal effect**
+*  Region and gender have **low influence**
+*  Lifestyle factors dominate over demographics
 
-\- Power BI
+---
 
-\- Excel
+##  Model Performance
 
+*  R² Score: **0.78**
+*  Mean Absolute Error: **~4181**
 
+---
 
+##  Dashboard Preview
 
+![Dashboard](images/dashboard.png)
 
+---
 
+##  Project Structure
 
-#### &#x20;Key Insights
+```bash
+data/        → dataset  
+notebook/    → analysis & ML model  
+dashboard/   → Power BI dashboard  
+images/      → visuals  
+```
 
-\- Smokers incur significantly higher medical costs (\~3–4x)
+---
 
-\- Age and BMI have moderate impact on charges
+##  Conclusion
 
-\- Number of children and region have minimal effect
-
-\- Lifestyle factors dominate over demographics
-
-
-
-\---
-
-
-
-#### &#x20;Model Performance
-
-\- R² Score: \~0.78
-
-\- Mean Absolute Error: \~4181
-
-
-
-
-
-#### 
-
-#### Dashboard
-
-
-
-
-
-#### 
-
-#### &#x20;Project Structure
-
-\- data → dataset
-
-\- notebook → analysis \& model
-
-\- dashboard → Power BI file
-
-
-
-
-
-
-
-#### &#x20;Conclusion
-
-&#x20; Smoking status is the most significant factor affecting medical costs, followed by BMI and age. The model provides a reliable estimate of healthcare expenses.
-
+Smoking is the most significant factor affecting medical costs, followed by BMI and age. The model provides reliable predictions and actionable insights for cost optimization.
